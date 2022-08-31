@@ -35,7 +35,7 @@ class AppDocument extends Document<Props> {
             content={`${publicRuntimeConfig.SITE_NAME} is a free and open source URL shortener with custom domains and stats.`}
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Nunito:300,400,700"
+            href="https://fonts.bunny.net/css?family=almarai:300,400,700"
             rel="stylesheet"
           />
           <link rel="icon" sizes="196x196" href="https://cdn.s.f4q.xyz/images/favicon-196x196.png" />
