@@ -38,12 +38,12 @@ class AppDocument extends Document<Props> {
             href="https://fonts.googleapis.com/css?family=Nunito:300,400,700"
             rel="stylesheet"
           />
-          <link rel="icon" sizes="196x196" href="/images/favicon-196x196.png" />
-          <link rel="icon" sizes="32x32" href="/images/favicon-32x32.png" />
-          <link rel="icon" sizes="16x16" href="/images/favicon-16x16.png" />
-          <link rel="apple-touch-icon" href="/images/favicon-196x196.png" />
-          <link rel="mask-icon" href="/images/icon.svg" color="blue" />
-          <link rel="manifest" href="manifest.webmanifest" />
+          <link rel="icon" sizes="196x196" href="https://cdn.s.f4q.xyz/images/favicon-196x196.png" />
+          <link rel="icon" sizes="32x32" href="https://cdn.s.f4q.xyz/images/favicon-32x32.png" />
+          <link rel="icon" sizes="16x16" href="https://cdn.s.f4q.xyz/images/favicon-16x16.png" />
+          <link rel="apple-touch-icon" href="https://cdn.s.f4q.xyz/images/favicon-196x196.png" />
+          <link rel="mask-icon" href="https://cdn.s.f4q.xyz/images/icon.svg" color="blue" />
+          <link rel="manifest" href="https://cdn.s.f4q.xyz/manifest.webmanifest" />
           <meta name="theme-color" content="#f3f3f3" />
 
           <meta property="fb:app_id" content="123456789" />
@@ -55,11 +55,11 @@ class AppDocument extends Document<Props> {
           <meta property="og:title" content={publicRuntimeConfig.SITE_NAME} />
           <meta
             property="og:image"
-            content={`https://${publicRuntimeConfig.DEFAULT_DOMAIN}/images/card.png`}
+            content={`https://cdn.s.f4q.xyz/images/card.png`}
           />
           <meta
             property="og:description"
-            content="Free & Open Source Modern URL Shortener"
+            content="Free & Modern URL Shortener"
           />
           <meta
             name="twitter:url"
@@ -68,11 +68,11 @@ class AppDocument extends Document<Props> {
           <meta name="twitter:title" content={publicRuntimeConfig.SITE_NAME} />
           <meta
             name="twitter:description"
-            content="Free & Open Source Modern URL Shortener"
+            content="Free & Modern URL Shortener"
           />
           <meta
             name="twitter:image"
-            content={`https://${publicRuntimeConfig.DEFAULT_DOMAIN}/images/card.png`}
+            content={`https://cdn.s.f4q.xyz/images/card.png`}
           />
 
           {this.props.styleTags}
