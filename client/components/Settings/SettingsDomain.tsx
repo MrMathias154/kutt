@@ -77,9 +77,12 @@ const SettingsDomain: FC = () => {
         <b>{publicRuntimeConfig.DEFAULT_DOMAIN}/shorturl</b> you can have{" "}
         <b>example.com/shorturl.</b>
       </Text>
+      <Text mb={1}>
+        Point your domain CNAME record to <b>sf4qxyzsl.b-cdn.net</b> then add the domain
+        via form below and send email to <b>contact@f4q.xyz</b> with the domain name to activate them:
+      </Text>
       <Text mb={4}>
-        Point your domain A record to <b>192.64.116.170</b> then add the domain
-        via form below:
+        (We actually work on auto add)
       </Text>
       {domains.length > 0 && (
         <Table my={3} scrollWidth="550px">
