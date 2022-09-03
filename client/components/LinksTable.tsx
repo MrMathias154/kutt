@@ -47,11 +47,11 @@ const Td = styled(Flex)<{ withFade?: boolean }>`
         top: 0;
         height: 100%;
         width: 16px;
-        background: #2c3e50;
+        background: #2b3d4f;
       }
 
       tr:hover &:after {
-        background: #2c3e50;
+        background: #2b3d4f;
         );
       }
     `
@@ -68,7 +68,7 @@ Td.defaultProps = {
 
 const EditContent = styled(Col)`
   border-bottom: 1px solid ${Colors.TableRowHover};
-  background-color: #95a5a6;
+  background-color: #2b3d4f;
 `;
 
 const Action = (props: React.ComponentProps<typeof Icon>) => (
@@ -188,7 +188,7 @@ const Row: FC<RowProps> = ({ index, link, setDeleteModal }) => {
           <Col alignItems="flex-start">
             <ALink href={link.target}>{link.target}</ALink>
             {link.description && (
-              <Text fontSize={[13, 14]} color="#888">
+              <Text fontSize={[13, 14]} color="#ECF0F1">
                 {link.description}
               </Text>
             )}
@@ -197,7 +197,7 @@ const Row: FC<RowProps> = ({ index, link, setDeleteModal }) => {
         <Td {...createdFlex} flexDirection="column" alignItems="flex-start">
           <Text>{formatDistanceToNow(new Date(link.created_at))} ago</Text>
           {link.expire_in && (
-            <Text fontSize={[13, 14]} color="#888">
+            <Text fontSize={[13, 14]} color="#ECF0F1">
               Expires in{" "}
               {ms(
                 differenceInMilliseconds(new Date(link.expire_in), new Date()),
@@ -253,7 +253,7 @@ const Row: FC<RowProps> = ({ index, link, setDeleteModal }) => {
                 data-tip
                 data-for={`${index}-tooltip-password`}
                 name="key"
-                stroke={"#bbb"}
+                stroke={"#95A5A6"}
                 strokeWidth="2.5"
                 backgroundColor="none"
               />
@@ -267,7 +267,7 @@ const Row: FC<RowProps> = ({ index, link, setDeleteModal }) => {
                 data-tip
                 data-for={`${index}-tooltip-banned`}
                 name="stop"
-                stroke="#bbb"
+                stroke="#95A5A6"
                 strokeWidth="2.5"
                 backgroundColor="none"
               />
@@ -581,7 +581,7 @@ const LinksTable: FC = () => {
         width="1px"
         height={20}
         mx={[3, 24]}
-        style={{ backgroundColor: "#ccc" }}
+        style={{ backgroundColor: "#2C3E50" }}
       />
       <Flex>
         <NavButton
