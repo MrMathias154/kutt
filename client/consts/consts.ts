@@ -35,7 +35,7 @@ export enum Colors {
   EditIcon = "hsl(46, 90%, 50%)",
   EditIconBg = "hsl(46, 100%, 94%)",
   ExtensionsBg = "hsl(230, 15%, 20%)",
-  FeaturesBg = "hsl(210, 29%, 24%)",
+  FeaturesBg = "hsl(283, 39%, 53%)",
   Icon = "hsl(200, 35%, 45%)",
   IconShadow = "hsla(200, 15%, 60%, 0.12)",
   Map0 = "hsl(200, 15%, 92%)",
