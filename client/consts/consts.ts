@@ -27,7 +27,7 @@ export enum APIv2 {
 }
 
 export enum Colors {
-  Bg = "hsl(210, 29%, 24%)",
+  Bg = "hsl(210, 29%, 29%)",
   CheckIcon = "hsl(144, 50%, 60%)",
   CopyIcon = "hsl(144, 40%, 57%)",
   CopyIconBg = "hsl(144, 100%, 96%)",
@@ -54,14 +54,14 @@ export enum Colors {
   StatsTotalUnderline = "hsl(200, 35%, 65%)",
   StopIcon = "hsl(10, 100%, 40%)",
   StopIconBg = "hsl(10, 100%, 96%)",
-  TableBorder = "hsl(200, 14%, 90%)",
+  TableBorder = "hsl(210, 29%, 24%)",
   TableHeadBg = "hsl(200, 12%, 95%)",
   TableHeadBorder = "hsl(200, 14%, 94%)",
   TableRowHover = "hsl(200, 14%, 98%)",
   TableRowBanned = "hsl(0, 100%, 98%)",
   TableRowBannedHower = "hsl(0, 100%, 96%)",
   TableShadow = "hsla(200, 20%, 70%, 0.3)",
-  Text = "hsl(200, 35%, 25%)",
+  Text = "hsl(192, 15%, 94%)",
   TrashIcon = "hsl(0, 100%, 69%)",
   TrashIconBg = "hsl(0, 100%, 96%)"
 }
