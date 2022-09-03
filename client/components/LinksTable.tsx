@@ -188,7 +188,7 @@ const Row: FC<RowProps> = ({ index, link, setDeleteModal }) => {
           <Col alignItems="flex-start">
             <ALink href={link.target}>{link.target}</ALink>
             {link.description && (
-              <Text fontSize={[13, 14]} color="#2C3E50">
+              <Text fontSize={[13, 14]} color="#ECF0F1">
                 {link.description}
               </Text>
             )}
