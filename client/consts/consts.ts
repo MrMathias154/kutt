@@ -27,7 +27,7 @@ export enum APIv2 {
 }
 
 export enum Colors {
-  Bg = "hsl(0, 100%, 50%)",
+  Bg = "hsl(210, 29%, 24%)",
   CheckIcon = "hsl(144, 50%, 60%)",
   CopyIcon = "hsl(144, 40%, 57%)",
   CopyIconBg = "hsl(144, 100%, 96%)",
