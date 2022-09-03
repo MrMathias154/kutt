@@ -47,7 +47,7 @@ const Td = styled(Flex)<{ withFade?: boolean }>`
         top: 0;
         height: 100%;
         width: 16px;
-        background: linear-gradient(to left, white, rgba(255, 255, 255, 0.001));
+        background: #2c3e50;
       }
 
       tr:hover &:after {
