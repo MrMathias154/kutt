@@ -21,7 +21,7 @@ const Footer: FC = () => {
     <ColCenter
       as="footer"
       width={1}
-      backgroundColor="white"
+      backgroundColor="#2c3e50"
       p={isAuthenticated ? 2 : 24}
     >
       {!isAuthenticated && <ReCaptcha />}
