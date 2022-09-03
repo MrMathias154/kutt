@@ -29,7 +29,6 @@ const Homepage = () => {
       {!isAuthenticated && <NeedToLogin />}
       {isAuthenticated && <LinksTable />}
       <Features />
-/*      <Extensions /> */
       <Footer />
     </AppWrapper>
   );
